@@ -2,6 +2,8 @@ const container = document.querySelector('.container');
 var inputValue = document.querySelector('.input');
 const add = document.querySelector('.add');
 
+const date = new Date();
+
 if(window.localStorage.getItem("todos") == undefined){
      var todos = [];
      window.localStorage.setItem("todos", JSON.stringify(todos));
