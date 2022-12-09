@@ -113,3 +113,7 @@ footer{
 	margin: 1rem 0 3rem; 
 	font-family: 'Hind', sans-serif;
 }
+
+.current_date{
+	text-color:white;
+}
