@@ -1,8 +1,11 @@
 const container = document.querySelector('.container');
 var inputValue = document.querySelector('.input');
 const add = document.querySelector('.add');
+const showDate = document.getElementById("showDate");
 
 const date = new Date();
+
+showDate = date;
 
 if(window.localStorage.getItem("todos") == undefined){
      var todos = [];
