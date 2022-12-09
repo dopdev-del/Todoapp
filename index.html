@@ -12,6 +12,10 @@
 </head>
 <body>
     <h1><span class="title">Lista</span>de tareas</h1>
+     <div id="current_date"></p>
+    <script>
+        document.getElementById("current_date").innerHTML = Date();
+    </script>
     
     <div class="inputDiv">
     	   <input type="text" class="input" placeholder="Agrega una tarea...">
@@ -21,10 +25,7 @@
     </div>
     <footer> JuniorDev @dopdev on GitHub 
     </footer>
-    <div id="current_date"></p>
-    <script>
-        document.getElementById("current_date").innerHTML = Date();
-    </script>
+   
     <script src='app.js'></script>
 </body>
 </html>
