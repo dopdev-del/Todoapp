@@ -22,7 +22,7 @@ h1 {
 .title{
 	color: lime;
 	text-transform: uppercase;
-	font-weight: 800;
+	font-weight: 700;
 }
 
 .inputDiv{
@@ -40,7 +40,7 @@ h1 {
     width: 350px;
     margin: 0.25rem;
     transition: .5s;
-    font-size: 1.15rem;
+    font-size: 1.10rem;
 }
 
 .add{
@@ -72,7 +72,7 @@ h1 {
 .item{
 	padding: 0.5rem;
 	border-bottom: 4px solid #fff;
-	margin-bottom: 1.5rem;
+	margin-bottom: 1.2rem;
 }
 
 .item_input{
@@ -89,7 +89,7 @@ h1 {
 	outline: none;
 	border: none;
 	color: lime;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	font-family: 'Hind', sans-serif;
 	margin: 0 0.5rem;
 	cursor: pointer;
